@@ -8,15 +8,17 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="258dp"
-        android:layout_height="445dp"
+        android:layout_width="255dp"
+        android:layout_height="273dp"
         android:background="@android:color/transparent"
         android:onClick="nextScene"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/moon"
-        tools:layout_editor_absoluteY="-35dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="81dp"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.504" />
 
     <Button
         android:id="@+id/button2"
@@ -24,8 +26,20 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:onClick="nextScene2"
-        android:text="Click Here To Check The Meal Plan"
+        android:text="Click Here To Check Scene Transitions"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click The Moon To Check Fragment Tabs"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 </android.support.constraint.ConstraintLayout>
