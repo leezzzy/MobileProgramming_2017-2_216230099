@@ -21,4 +21,13 @@ public class MainActivity extends AppCompatActivity {
 //        s.enter();
 //        // scene은 시스템 생명주기를 따르지 않는다.
     }
+    public void nextScene2(View v){
+        Intent ii = new Intent(this, Main3Activity.class);
+        // Intent(from, to)
+        startActivity(ii); // 새로운 액티비티 실행
+//        ViewGroup vg = (ViewGroup) findViewById(R.id.lay2);
+//        Scene s = Scene.getSceneForLayout(vg, R.layout.activity_main2, this);
+//        s.enter();
+//        // scene은 시스템 생명주기를 따르지 않는다.
+    }
 }

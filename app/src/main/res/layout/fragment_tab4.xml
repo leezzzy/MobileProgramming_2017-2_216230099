@@ -11,7 +11,14 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tab 4 Fragment"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="247dp" />
+        android:text="2C_216230099 이한솔"
+        tools:layout_editor_absoluteY="464dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 </android.support.constraint.ConstraintLayout>

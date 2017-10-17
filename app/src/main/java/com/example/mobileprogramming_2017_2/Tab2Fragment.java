@@ -22,7 +22,7 @@ public class Tab2Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // 이 프래그먼트의 레이아웃을 인플레이트한다.
+        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_tab2, container, false);
     }
 

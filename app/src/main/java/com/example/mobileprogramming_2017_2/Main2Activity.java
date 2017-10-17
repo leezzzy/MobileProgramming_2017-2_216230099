@@ -26,10 +26,10 @@ public class Main2Activity extends AppCompatActivity {
 
         tabLayout.addTab(tabLayout.newTab().setText(
                 "Time Table"));
-        tabLayout.addTab(tabLayout.newTab().setIcon(
-                android.R.drawable.ic_dialog_dialer));
-        tabLayout.addTab(tabLayout.newTab().setIcon(
-                android.R.drawable.ic_dialog_map));
+        tabLayout.addTab(tabLayout.newTab().setText(
+                "Calendar"));
+        tabLayout.addTab(tabLayout.newTab().setText(
+                "Clock"));
         tabLayout.addTab(tabLayout.newTab().setIcon(
                 android.R.drawable.ic_dialog_info));
 

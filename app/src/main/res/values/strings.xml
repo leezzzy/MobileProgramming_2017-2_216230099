@@ -9,4 +9,9 @@
     <string name="tab_3_fragment">Tab 2 Fragment</string>
     <string name="tab_4_fragment">Tab 2 Fragment</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="one_string">one_string</string>
+    <string name="two_string">two_string</string>
+    <string name="three_string">three_string</string>
+
+    <item name="webView" type="id" />
 </resources>

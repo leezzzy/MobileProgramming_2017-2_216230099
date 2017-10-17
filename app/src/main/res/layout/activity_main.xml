@@ -8,12 +8,24 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="258dp"
+        android:layout_height="445dp"
         android:background="@android:color/transparent"
         android:onClick="nextScene"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/moon"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-34dp" />
+        tools:layout_editor_absoluteY="-35dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="nextScene2"
+        android:text="Click Here To Check The Meal Plan"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="434dp" />
 </android.support.constraint.ConstraintLayout>
