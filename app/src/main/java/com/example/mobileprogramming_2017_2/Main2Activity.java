@@ -24,8 +24,8 @@ public class Main2Activity extends AppCompatActivity {
         TabLayout tabLayout =
                 (TabLayout) findViewById(R.id.tab_layout);
 
-        tabLayout.addTab(tabLayout.newTab().setIcon(
-                android.R.drawable.ic_dialog_email));
+        tabLayout.addTab(tabLayout.newTab().setText(
+                "Time Table"));
         tabLayout.addTab(tabLayout.newTab().setIcon(
                 android.R.drawable.ic_dialog_dialer));
         tabLayout.addTab(tabLayout.newTab().setIcon(

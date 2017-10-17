@@ -3,15 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mobileprogramming_2017_2.Tab1Fragment">
+    tools:context="com.example.mobileprogramming_2017_2.Tab1Fragment"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tab 1 Fragment"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="247dp" />
+        app:srcCompat="@drawable/time_table"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
 </android.support.constraint.ConstraintLayout>
