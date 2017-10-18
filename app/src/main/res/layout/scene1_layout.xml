@@ -3,37 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <ImageButton
+    <Button
         android:id="@+id/One"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:onClick="goToScene2"
-        android:scaleType="matrix"
-        app:srcCompat="@drawable/togepi" />
+        android:text="Button" />
 
-    <ImageButton
+    <Button
         android:id="@+id/Two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:onClick="goToScene2"
-        android:scaleType="centerInside"
-        app:srcCompat="@drawable/pokeball"
-        android:layout_marginStart="44dp"
-        android:layout_marginBottom="283dp"
-        android:layout_alignBottom="@+id/One"
-        android:layout_alignStart="@+id/Three" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="goToScene1"
+        android:text="Button" />
 
-    <ImageButton
+    <Button
         android:id="@+id/Three"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/jigglypuff"
-        android:layout_marginStart="174dp"
-        android:layout_marginTop="38dp"
-        android:layout_below="@+id/One"
-        android:layout_alignStart="@+id/One" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Button" />
+
 </RelativeLayout>
